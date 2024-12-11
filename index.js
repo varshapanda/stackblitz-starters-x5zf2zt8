@@ -3,6 +3,7 @@ const { resolve } = require('path');
 
 const app = express();
 const port = 3010;
+const app=require('./app.js');
 
 app.use(express.static('static'));
 
